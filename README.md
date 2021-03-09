@@ -29,16 +29,14 @@ Once you have registered yo will get  `Access Token` key, `Service` type and `Se
 ### Completing the SMS Provider settings in CiviCRM
 
 * You now have all of the information needed to configure SMS in CiviCRM. To continue, return to CiviCRM and go to: `Administer > System Settings> SMS Providers`.
-Click `Add New Provider`.
-
-    <img src="/images/apiconfig.png">
+Click `Add New Provider`.    
 
 **Complete the following settings:**
 
 * `Name`: Select `MOBtexting`
 * `Title`: Give the SMS provider a title user's will see (e.g. `MOBtexting SMS`)
-* `Username`: Enter your username (optional)
-* `Password`: Enter your password (optional)
+* `Username`: Enter your username (optional of mobtexting username)
+* `Password`: Enter your password (optional of mobtexting password)
 * `API type`: Select `http`
 * `API URL`: Type the URL as follows: `https://portal.mobtexting.com/api/v2/sms/send`
 * `API Parameters`: This are where you should provide your Access Token, Service, Sender Fields and Values. The format required are:      
@@ -52,7 +50,11 @@ Click `Add New Provider`.
 * Is this provider active?: Tick to enable the SMS gateway
 * Is this a default provider?: Check this option to make it the default, where multiple SMS providers are available
 
-CiviCRM will now be configured to send text messages to your contacts.
+    <img src="/images/apiconfig.png">
+ * CiviCRM will now be configured to send text messages to your contacts.
+ 
+ 
+### Contact Demo
 
 <img src="/images/4.jpg">
 
