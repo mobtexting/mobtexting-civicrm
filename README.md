@@ -18,7 +18,7 @@ Once you have registered yo will get  `Access Token` key, `Service` type and `Se
 
 # CiviCRM Set-up
 1. Download the extension MOBtexting SMS package from [here](https://github.com/mobtexting/mobtexting-civicrm/archive/master.zip)
-    Unzip / unar the package and place it in your configured extensions directory.
+    Unzip / under the package and place `downloaded sms package` in your configured extensions directory. If you don't know the extension directory see the image how to get the extension directory. 
 
     <img src="/images/1.png">
 
@@ -31,7 +31,7 @@ Once you have registered yo will get  `Access Token` key, `Service` type and `Se
 * You now have all of the information needed to configure SMS in CiviCRM. To continue, return to CiviCRM and go to: `Administer > System Settings> SMS Providers`.
 Click `Add New Provider`.
 
-    <img src="/images/3.png">
+    <img src="/images/apiconfig.png">
 
 **Complete the following settings:**
 
